@@ -1,4 +1,4 @@
-# CMS Template
+# CMS Template - Blank
 Default template for CMS
 
 ## Install
