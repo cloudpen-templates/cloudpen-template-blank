@@ -1,0 +1,82 @@
+{
+  "create": {
+    "item_types": [],
+    "items": [],
+    "bucket_meta": [
+      {
+        "id": "template",
+        "value": "blank"
+      },
+      {
+        "id": "config",
+        "value": {
+          "item_types": {
+            "hidden": [
+              "nav-menu-item",
+              "link"
+            ]
+          },
+          "admin_menu": [
+            {
+              "display_name": "Sidor",
+              "icon": "file",
+              "item_type": "nav-menu-item"
+            },
+            {
+              "display_name": "Blogg",
+              "icon": "book",
+              "items": [
+                {
+                  "display_name": "Poster",
+                  "icon": "book",
+                  "item_type": "blog-post"
+                },
+                {
+                  "display_name": "Kategorier",
+                  "icon": "book",
+                  "item_type": "blog-post-category"
+                },
+                {
+                  "display_name": "Inställningar",
+                  "icon": "cogs",
+                  "item_type": "blog-settings"
+                }
+              ]
+            },
+            {
+              "display_name": "Portfolio",
+              "icon": "book",
+              "items": [
+                {
+                  "display_name": "Portfolioposter",
+                  "icon": "book",
+                  "item_type": "portfolio-post"
+                }
+              ]
+            },
+            {
+              "display_name": "Produktkatalog",
+              "icon": "book",
+              "items": [
+                {
+                  "display_name": "Produkter",
+                  "icon": "book",
+                  "item_type": "catalog-product"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "media": [],
+    "access_tokens": [
+      {
+        "attributes": {
+          "name": "Min access token",
+          "description": "En access token till mig"
+        }
+      }
+    ]
+  }
+}
