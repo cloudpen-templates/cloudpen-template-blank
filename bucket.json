@@ -6,7 +6,7 @@
           "id": "blog-post-category",
           "type": "item-types",
           "attributes": {
-            "title": "Blog Post Category"
+            "title": "Blog Post Category",
             "properties": {
               "title": {
                 "type": "string",
