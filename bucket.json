@@ -1,6 +1,36 @@
 {
   "bucket": {
-    "item_types": [],
+    "item_types": [
+      {
+        "data": {
+          "id": "blog-post-category",
+          "type": "item-types",
+          "attributes": {
+            "title": "Blog Post Category"
+            "properties": {
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "slug": {
+                "type": "slug",
+                "title": "Slugg",
+                "unique_with": [
+                  "meta.parent_id",
+                  "meta.item_type.data.id"
+                ],
+                "populate_from": "title",
+                "required": true
+              }
+            }
+          },
+          "meta": {
+            "position": 0,
+            "status": "published"
+          }
+        }
+      }
+    ],
     "items": [
       {
         "data": {
