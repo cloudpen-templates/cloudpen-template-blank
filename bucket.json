@@ -1,7 +1,29 @@
 {
   "bucket": {
     "item_types": [],
-    "items": [],
+    "items": [
+      {
+        "data": {
+          "id": "56ba715a9cd1962f7b30f034",
+          "attributes": {
+            "title": "CSS",
+            "slug": "css"
+          },
+          "relationships": {
+            "posts": {
+              "data": []
+            }
+          },
+          "meta": {
+            "item_type": {
+              "id": "blog-post-category",
+              "type": "item-types"
+            }
+            "position": 0
+          }
+        }
+      },
+    ],
     "bucket_meta": [],
     "media": [],
     "access_tokens": [
