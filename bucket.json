@@ -22,7 +22,8 @@
                 "type": "item-types"
               }
             },
-            "position": 0
+            "position": 0,
+            "status": "published"
           }
         }
       }
