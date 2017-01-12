@@ -4,13 +4,6 @@
     "items": [],
     "bucket_meta": [],
     "media": [],
-    "access_tokens": [
-      {
-        "attributes": {
-          "name": "Min access token",
-          "description": "En access token till mig"
-        }
-      }
-    ]
+    "access_tokens": []
   }
 }
